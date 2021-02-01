@@ -1,7 +1,7 @@
 from selenium import webdriver
 import json
 
-class TotalCorner_Live_Stats:
+class TotalCorner:
 	
 	def __init__(self):
 
@@ -93,7 +93,7 @@ class TotalCorner_Live_Stats:
 
 		
 
-x = TotalCorner_Live_Stats()
+x = TotalCorner()
 
 print(x.obter_tabela())
 
